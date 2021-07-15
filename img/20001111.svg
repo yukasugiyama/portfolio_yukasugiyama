@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="40.26mm" height="19.00mm">
+    <text x="2mm 6.93mm 9.24mm 11.55mm 13.86mm 16.17mm 18.48mm 
+        22.11mm 24.42mm 26.73mm 29.04mm 31.35mm 33.66mm"
+        y="17.5mm" font-size="10pt" font-family="OCRB">
+    2000111120213
+    </text>
+    <g stroke-width="0" fill="#000000">
+         <rect x="5.61mm" y="1mm" width="0.33mm" height="15mm" />
+         <rect x="6.27mm" y="1mm" width="0.33mm" height="15mm" />
+         <rect x="7.59mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="8.58mm" y="1mm" width="0.33mm" height="13.5mm" />
+         <rect x="9.9mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="10.89mm" y="1mm" width="0.33mm" height="13.5mm" />
+         <rect x="11.55mm" y="1mm" width="0.33mm" height="13.5mm" />
+         <rect x="12.54mm" y="1mm" width="0.99mm" height="13.5mm" />
+         <rect x="13.86mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="15.18mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="16.5mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="17.82mm" y="1mm" width="0.33mm" height="13.5mm" />
+         <rect x="18.48mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="19.8mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="20.79mm" y="1mm" width="0.33mm" height="15mm" />
+         <rect x="21.45mm" y="1mm" width="0.33mm" height="15mm" />
+         <rect x="22.11mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="23.43mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="24.42mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="25.41mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="26.73mm" y="1mm" width="0.99mm" height="13.5mm" />
+         <rect x="28.38mm" y="1mm" width="0.33mm" height="13.5mm" />
+         <rect x="29.04mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="30.03mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="31.35mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="32.67mm" y="1mm" width="0.66mm" height="13.5mm" />
+         <rect x="33.66mm" y="1mm" width="0.33mm" height="13.5mm" />
+         <rect x="35.31mm" y="1mm" width="0.33mm" height="13.5mm" />
+         <rect x="35.97mm" y="1mm" width="0.33mm" height="15mm" />
+         <rect x="36.63mm" y="1mm" width="0.33mm" height="15mm" />
+    </g>
+</svg>
