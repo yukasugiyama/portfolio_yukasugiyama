@@ -437,7 +437,6 @@ h1 {
 .right{
   background-color: #fff;
   height: inherit;
-
   margin: 100vh 0;
 }
 .fixed_img {
@@ -470,6 +469,7 @@ header{
   transform: translate(-50%, -50%);
 }
 
+
 .mv .move_img {
   width: 300px;
   left: 50%;
@@ -496,6 +496,11 @@ header{
 .works .left{
   padding-top: 100vh;
 }
+
+.works .right{
+  margin-top: 30vh;
+}
+
 .works_content {
   width: 200px;
 }
