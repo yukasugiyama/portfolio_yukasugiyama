@@ -507,6 +507,9 @@ header{
 
 .works_content-inner {
   width: 200px;
+  font-size: 0.7em;
+  text-align: left;
+  padding: 10px;
 }
 
 /* feature/skill */
