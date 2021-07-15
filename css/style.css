@@ -1,18 +1,6 @@
 @charset "UTF-8";
 
-
-@media screen and (max-width:500) {
-  .flex{
-    display: block;
-  }
-
-  .nav-list{
-  background-color: #bdaaa5;
-  }
-
-  .nav-list-item{
-  }
-  
+@media screen and (max-width:500px) {
 }
 
 body {
@@ -41,14 +29,15 @@ a {
 .skill,
 .contact {
   /* position: relative; */
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0 150px;
 }
 
 .left,
 .right {
   width: 50%;
-  height: 70%;
+  /* height: 70%; */
+  height: 100vh;
   position: relative;
 }
 .fixed_img {
@@ -95,6 +84,8 @@ a {
   visibility: visible;
   transform: translateY(0);
 }
+
+
 /* start--------------------------------- */
 .start {
   background: #fff;
@@ -114,6 +105,8 @@ a {
   z-index: 9999;
   width: 280px;
 }
+
+
 /* header--------------------------------*/
 .nav-list {
   position: fixed;
@@ -185,7 +178,6 @@ a {
 
 .works_content-inner {
   width: 300px;
-
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -204,6 +196,7 @@ a {
 
 .works_content-inner:hover {
   opacity: 1;
+  pointer-events: painted;
 }
 
 /* feature・skill---------------------------- */
@@ -386,11 +379,6 @@ h1 {
 
 .line {
   display: inline-block;
-
-  /* border-left: 2px solid #000; */
-  /* padding-left: 10px; */
-  /* margin-left: -13px; */
-  /* padding: 180px 0px 180px 10px; */
   padding: 180px 0;
   position: relative;
 }
@@ -405,17 +393,7 @@ h1 {
   transform: translateY(-100%);
   animation: line_anime 10s linear forwards;
 }
-/* .line::before {
-      content: '';
-      position: absolute;
-      top: 50%;
 
-      left: -100%;
-      height: 0;
-      border-left: solid 2px #000;
-      transform: translateY(-50%);
-      animation: line_anime 3s linear forwards infinite;
-    } */
 
 @keyframes line_anime {
   0% {
@@ -437,4 +415,121 @@ h1 {
   z-index: -1;
 }
 
+/* ======レスポンシブ======== */
+@media screen and (max-width:767px) {
+  .flex{
+    display: block;
+  }
+  .mv,
+  .works,
+  .feature,
+  .about,
+  .skill,
+  .contact {
+    padding: 0;
+  }
 
+.left,
+.right {
+  width: 100%;
+}
+
+.right{
+  background-color: #fff;
+}
+.fixed_img {
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.move_img {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+h1{
+  font-size: 1.5em;
+}
+.ttl{
+  font-size: 2.5em;
+}
+
+header{
+  display: none;
+}
+
+.start p {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mv .move_img {
+  width: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mv_content {
+  /* lineでたかさをだしたよ */
+  padding: 0 30px ;
+}
+
+.line {
+  padding: 100px 0;
+}
+.redbox {
+  height: 60px;
+  width: 60px;
+}
+
+
+/* works */
+.works_content {
+  width: 200px;
+}
+
+.works_content-inner {
+  width: 200px;
+
+  /* padding: 20px 30px; */
+}
+
+/* feature/skill */
+.feature .move_img,
+.skill .move_img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right_content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.skill_box {
+  width: 25%;
+  text-align: center;
+  margin: 10px;
+}
+
+.skill_icon {
+  width: 110px;
+}
+
+/* contact */
+.contact .move_img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+}
