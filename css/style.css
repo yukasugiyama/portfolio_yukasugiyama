@@ -217,6 +217,10 @@ a {
   text-align: center;
 }
 
+.feature{
+  padding-top: 130px;
+}
+
 .feature_text {
   line-height: 2em;
   margin-bottom: 20px;
@@ -230,8 +234,18 @@ a {
 .about .sub_ttl {
   text-align: start;
 }
+.about .left{
+  margin-top: -200px;
+}
 
+.about .right{
+  margin-top: 200px;
+}
 /* skill---------------------------------------*/
+.skill{
+  padding-top: 100px;
+}
+
 .skill .flex {
   flex-wrap: wrap;
   justify-content: center;
